@@ -1,0 +1,36 @@
+.box{
+    display: block;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.items h5{
+    margin: 0px 2%;
+    cursor: pointer;
+}
+.items h5:hover{
+    color: rgb(146, 142, 142);
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icons img{
+    width:20px;
+    cursor: pointer;
+}
+#logo{
+    width:25px;
+    cursor: pointer;
+}

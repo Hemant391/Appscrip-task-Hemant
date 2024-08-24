@@ -1,0 +1,77 @@
+.container{
+    background-color: black;
+    color: white;
+    
+}
+.upper_cont{
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+.right_upper{
+width: 45%;
+text-align: left;
+padding-top: 5%;
+}
+.left_upper{
+width:55%;
+display: flex;
+flex-direction: column;
+justify-content: start;
+text-align: left;
+padding-left: 15%;
+padding-top: 5%;
+}
+#user_id{
+    width: 40%;
+    padding: 7px;
+    font-size: 20px;
+}
+.input_user{
+    align-items: center;
+    display: flex;
+}
+.input_user button{
+    padding: 10px;
+    border: 1px solid rgb(74, 73, 73);
+    color: rgb(74, 73, 73);
+    background-color: black;
+   
+}
+.input_user button:hover{
+   color: rgb(159, 161, 162);
+        cursor: pointer;
+    
+}
+.lower_cont{
+display: flex;
+}
+.left_lower{
+width: 55%;
+display: flex;
+flex-direction: row;
+text-align: left;
+padding-left: 15%;
+}
+
+.left{
+list-style-type: none;
+width: 50%;
+}
+.right{
+    list-style-type: none;
+    margin-left: 38px;
+    width: 50%;
+
+}
+.right_lower{
+width: 45%;
+text-align: left;
+
+}
+.payments{
+
+}
+.copyright{
+
+}

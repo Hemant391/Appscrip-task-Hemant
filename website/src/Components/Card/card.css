@@ -1,0 +1,14 @@
+.wrapper{
+    position: relative;
+    height: 462px;
+    width:300px ;
+}
+.stock{
+    position: absolute;
+
+}
+.wrapper img{
+    height:399px;
+    width: 100%;
+    object-fit: cover;
+}

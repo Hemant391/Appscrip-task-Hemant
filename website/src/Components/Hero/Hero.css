@@ -1,0 +1,18 @@
+.Hero_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 33%;
+    align-items: center;
+}
+.Hero_cont h2{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+}
+.Hero_cont p{
+    width: 50%;
+}
