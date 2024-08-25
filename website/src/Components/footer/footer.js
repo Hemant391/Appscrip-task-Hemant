@@ -1,4 +1,9 @@
 import './footer.css';
+import insta from '../../Asset/instagram-brands-solid.svg'
+import linkdin from '../../Asset/linkedin-brands-solid.svg';
+import apay from '../../Asset/cc-apple-pay-brands-solid.svg';
+import gpay from '../../Asset/google-pay-brands-solid.svg';
+import paypal from '../../Asset/cc-paypal-brands-solid.svg';
 
 export default function Footer() {
     return (
@@ -47,17 +52,15 @@ export default function Footer() {
 
                     <h5>FOLLOW US</h5>
                     <div style={{display:'flex',flexDirection:'row'}}>
-                        <p>I</p>
-                        <p>L</p>
+                        <img width={15}  src={insta} alt="instalogo" />
+                        <img width={15} src={linkdin} alt="linkdin log" />
+                        
                     </div>
                     <h6>Metta muse ACCEPTS</h6>
                     <div className="payments">
-                        <img src="" alt="Gpay" />
-                        <img src="" alt="MC" />
-                        <img src="" alt="PP" />
-                        <img src="" alt="Amex" />
-                        <img src="" alt="AP" />
-                        <img src="" alt="Pay" />
+                        <img src={gpay} alt="Gpay" />
+                        <img src={paypal} alt="paypal" />
+                        <img src={apay} alt="PP" />
                     </div>
                 </div>
             </div>

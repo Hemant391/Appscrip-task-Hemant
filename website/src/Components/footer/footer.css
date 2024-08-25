@@ -58,20 +58,39 @@ padding-left: 15%;
 list-style-type: none;
 width: 50%;
 }
+.left li{
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+.left li:hover{
+    color: rgb(195, 190, 190);
+}
 .right{
     list-style-type: none;
     margin-left: 38px;
     width: 50%;
-
+}
+.right li{
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+.right li:hover{
+    color: rgb(195, 190, 190);
 }
 .right_lower{
 width: 45%;
 text-align: left;
 
 }
-.payments{
-
+.right_lower img{
+    cursor: pointer;
+    width: 25px;
+    margin: 0px 5px;
+}
+.payments img{
 }
 .copyright{
-
+margin-top: 20px;
+font-size: 13px;
+font-weight: 400;
 }
