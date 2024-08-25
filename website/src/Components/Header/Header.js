@@ -11,15 +11,23 @@ export default function Header() {
     return (
         <div className="box">
             <div className="logos">
+                <div className='hamburger'>
+
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
                 <img id='logo' src={logo} alt="logo" />
+                </div>
                 <h2>LOGO</h2>
 
-                    <div className="icons">
-                        <img src={search} alt="search"  />
-                        <img src={like} alt="like"  />
-                        <img src={work} alt="bag"  />
-                        <img src={user} alt="user"  />
-                    
+                <div className="icons">
+                    <img src={search} alt="search" />
+                    <img src={like} alt="like" />
+                    <img src={work} alt="bag" />
+                    <img src={user} alt="user" />
+
                 </div>
             </div>
             <div className="items">

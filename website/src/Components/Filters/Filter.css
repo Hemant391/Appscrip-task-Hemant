@@ -6,6 +6,7 @@
 }
 .displayfull{
     width: 100%;
+    position: relative;
 }
 
 .hide{
@@ -17,4 +18,25 @@
 .products{
     display: flex;
     justify-content: center;
+}
+@media only screen and (max-width: 900px) {
+    
+        .productdisplay{
+            width: 100%;
+            display: grid;
+
+            /* grid-template-columns: auto auto; */
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 5px;
+        }
+        .filtercolumnproduct{
+            display: none;
+        }
+        .wrapper{
+           
+    height: 462px;
+    width: 100%;
+        }
+
+    
 }

@@ -1,11 +1,14 @@
 import './Filterrow.css'
 
-export default function Filterline({click,status}){
+export default function Filterline({ click, status }) {
     return (
         <div className='Filterrow' >
-            <div className="statusfilter" style={{display:'flex'}}>
-                <h4>3425 ITEMS </h4>
-              <h4 id="status" onClick={()=>click()}>{status===true?'HIDE FILTER' :'SHOW FILTER'} </h4>
+            <div className="statusfilter" >
+                <h4>3425 ITEMS  </h4>
+                <h4 id="status" onClick={() => click()}>{status === true ? 'HIDE FILTER' : 'SHOW FILTER'} </h4>
+            </div>
+            <div className="responsive">
+                <h4>FILTER </h4>
             </div>
             <div className="dropdown">
                 <select name="filtername">

@@ -9,7 +9,24 @@
     margin-left: 10px;
     cursor: pointer;
 }
+.responsive{
+    display: none;
+}
 #status:hover{
     color: rgb(139, 135, 135);
+}
+.statusfilter{
+    display: flex;
+}
 
+@media only screen and (max-width:860px)  {
+    .responsive{
+        display: block;
+    }
+    .statusfilter{
+        display: none;
+    }
+    .Filterrow{
+        justify-content: space-evenly;
+    }
 }
