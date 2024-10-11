@@ -20,13 +20,13 @@ export default function Footer() {
                 </div>
                 <div className="right_upper">
                     <h5>CONTACT US</h5>
-                    <p></p>
-                    <p></p>
+                    <p>+44 221 133 5360</p>
+                    <p>customercare@mettamuse.com</p>
                     <h5>CURRENCY</h5>
                     <p>Transctions will be completed in Euros and a currency reference is available on hover</p>
                 </div>
             </div>
-            <hr />
+          
             <div className="lower_cont">
                 <div className="left_lower">
                     <div className="left">
